@@ -4,10 +4,6 @@
 
 These are the starter files and solutions to the [Beginner JavaScript](https://BeginnerJavaScript.com) course
 
-## Function Definition Diagram
-
-![](function-definition.jpg)
-
 ## Community Resources
 
 Please feel free to add your blog post, videos, notes, or anything else related to the course :)
