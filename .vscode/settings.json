@@ -1,0 +1,36 @@
+{
+  "prettier.requireConfig": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 11,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+
+  "search.exclude": {
+    "**/tmp": true
+  },
+  "terminal.integrated.fontFamily": "Fira Code",
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "vscode-icons",
+  "sync.gist": "7b12ed6ea257e713acc4ddda4aba0d6e",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "sync.ignoredSettings": [],
+  "workbench.editorAssociations": [],
+  "workbench.colorCustomizations": {}
+}
