@@ -47,3 +47,15 @@ const person = {
   age : 100
 }
 console.log(person, person.first)
+
+// Null and Undefined
+const cher = {
+  first: "Cher"
+};
+const fredi = {
+  first :"Fredi",
+  last: "Leis",
+};
+
+fredi.first = "Leis";
+fredi.last = null;
