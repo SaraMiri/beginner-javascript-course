@@ -1,5 +1,6 @@
 /* eslint-disable */
 
+// Strings
 console.log("hey")
 const name = 'wes';
 const middle = "topher";
@@ -31,3 +32,10 @@ const html = `
 
 document.body.innerHTML = html;
 
+// Numbers
+const sweets = 15;
+const people = 5;
+
+const numberOfSweets = sweets / people;
+const remainder = sweets % people;
+console.log(`The number of sweets per person is ${numberOfSweets} and the remainder is ${remainder}.`)
