@@ -59,3 +59,9 @@ const fredi = {
 
 fredi.first = "Leis";
 fredi.last = null;
+
+// Booleans (use === triple equals to compare type and value, only == two to compare the value)
+let isDrawing = false;
+const age = 18;
+const ofAge = age > 18;
+console.log(ofAge)
