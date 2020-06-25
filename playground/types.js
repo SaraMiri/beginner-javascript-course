@@ -39,3 +39,11 @@ const people = 5;
 const numberOfSweets = sweets / people;
 const remainder = sweets % people;
 console.log(`The number of sweets per person is ${numberOfSweets} and the remainder is ${remainder}.`)
+
+// Objects
+const person = {
+  first : "Sara",
+  last : "MR",
+  age : 100
+}
+console.log(person, person.first)
