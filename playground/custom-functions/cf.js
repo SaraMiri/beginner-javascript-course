@@ -1,12 +1,15 @@
 // Creating our first function (function definition)
-function calculateBill() {
+function calculateBill(billAmount, taxRate ) {
   //This is the body of the function
-  console.log("Running calculate bill!");
-  const total = 100 * 1.13;
+  console.log(billAmount,taxRate);
+  const total = billAmount * (1+ taxRate);
   return total;
 }
 
 // Function call or run
-const myTotal = calculateBill();
+const saraTotal = 500;
+const saraTaxRate = 0.4;
+const myTotal = calculateBill(saraTotal, saraTaxRate);
+
 //console.log(myTotal);
-console.log(`Your total is $${calculateBill()}`);
+//console.log(`Your total is $${calculateBill(100, 0.13)}`);
