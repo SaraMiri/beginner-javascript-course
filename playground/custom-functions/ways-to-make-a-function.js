@@ -2,10 +2,12 @@
 //  return `Dra. ${firstName}`
 //}
 
+// Anonymous function
 //function (firstName) {
  // return `Dra. ${firstName}`
 //}
 
-//function (firstName) {
- // return `Dra. ${firstName}`
-//}
+// Function Expression
+const doctorize = function (firstName) {
+ return `Dra. ${firstName}`
+}
