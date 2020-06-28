@@ -11,3 +11,5 @@
 const doctorize = function (firstName) {
  return `Dra. ${firstName}`
 }
+
+// Function 4
