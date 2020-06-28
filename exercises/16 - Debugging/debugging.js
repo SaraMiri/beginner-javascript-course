@@ -4,7 +4,7 @@ const people = [
   { name: 'Snickers', cool: false, country: 'Dog Country' },
 ];
 
-people.forEach((person, index) => {
+/* people.forEach((person, index) => {
   console.groupCollapsed(`${person.name}`);
   console.log(person.country);
   console.log(person.cool);
@@ -14,6 +14,7 @@ people.forEach((person, index) => {
 });
 
 console.table(people)
+*/
 
 // Console Methods
 
@@ -31,12 +32,20 @@ console.table(people)
 
 // Some Setup Code
 
+function doALotOfStuff () {
+  console.group("Hey group");
+  console.log("I'm a log")
+  console.warn("Hey, I'm warning you");
+  console.error("Hey, I'm showing you an error");
+  console.groupEnd("The ending of a group")
+}
+
 function doctorize(name) {
   return `Dr. ${name}`;
 }
 
 function greet(name) {
-  doesntExist();
+  doesntExist(); // Error, it's not defined
   return `Hello ${name}`;
 }
 
@@ -44,6 +53,13 @@ function go() {
   const name = doctorize(greet('Wes'));
   console.log(name);
 }
+
+function bootstrap () {
+  console.log("Starting the app");
+  go(); 
+}
+
+// bootstrap();
 
 const button = document.querySelector('.bigger');
 button.addEventListener('click', function(e) {
