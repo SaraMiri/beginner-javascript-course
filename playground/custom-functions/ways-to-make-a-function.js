@@ -74,7 +74,8 @@ button.addEventListener("click",function() {
 });
 
 // Timer Callback
-setTimeout(sara.yellHi, 1000)
+//setTimeout(sara.yellHi, 1000)
+
 setTimeout(function() {
   console.log("Done! Time to eat.")
 }, 1000);
