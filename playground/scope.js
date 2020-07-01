@@ -35,6 +35,7 @@ const dog = "Perdita"; // Global scope
 
 function logDog(dog) {
   console.log(dog); //This is going to load the variable dog in the global scope(Perdita)
+  return dog;
 }
 
 function go() {
@@ -42,11 +43,12 @@ function go() {
   logDog() // Loads the first dog in the global scope
 }
 
-// go()
+go()
 
 function go1() {
   const dog = "Lume";
   logDog(dog); // Loads the string or variable dog in the function with logDog(dog)
+  return(dog)
 };
 
 // go1()
@@ -68,11 +70,10 @@ function yell() {
 
 // The functions separately
 function yell1() {
-  console.log(name.toUpperCase());
-};
+  console.log(name.toUpperCase())
+}
 
-function sayHi(name){
+function sayHi(name) {
   yell1();
-};
-
+}
 yell1();
